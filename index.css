@@ -1,0 +1,151 @@
+@font-face {
+  font-family: "myFirstFont";
+  src: url(./assets/fonts/BodoniModa-VariableFont_opsz\wght.ttf);
+}
+.body {
+  font-family: "myFirstFont";
+}
+.container {
+  width: 97%;
+  height: auto;
+  margin: 0 auto;
+}
+.heading {
+  position: relative;
+}
+.heading > p {
+  text-align: center;
+  padding-top: 60px;
+}
+.heading-text {
+  font-size: 55px;
+  color: black;
+}
+.heading-text::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 110px;
+  background-color: rgb(155, 155, 155);
+  top: 130px;
+  left: 590px;
+}
+.heading-text::before {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 42px;
+  background-color: chartreuse;
+  top: 130px;
+  left: 624px;
+  z-index: 9999999999999999999;
+}
+/* .heading:last-child {
+  font-size: 20px;
+  color: rgb(78, 78, 78);
+} */
+.card {
+  width: 25%;
+  height: 420px;
+  margin-top: 30px;
+  position: relative;
+  display: inline-block;
+  float: left;
+}
+.card-image {
+  width: 75%;
+  height: 220px;
+  border-radius: 100%;
+  margin: 10px auto;
+  box-shadow: 2px 2px 5px gray;
+}
+.card-heading > p {
+  font-size: 30px;
+  text-align: center;
+  margin: 10px 0px;
+}
+.card-content > p {
+  font-size: 20px;
+  text-align: center;
+  color: rgb(59, 59, 59);
+}
+.bg-size {
+  background-size: cover;
+}
+.img-1 {
+  background-image: url(./assets/img/img-1.jpg);
+}
+.img-2 {
+  background-image: url(./assets/img/img-2.jpg);
+}
+.img-3 {
+  background-image: url(./assets/img/img-3.jpg);
+}
+.img-4 {
+  background-image: url(./assets/img/img-4.jpg);
+}
+.card-1::before {
+  content: "";
+  color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  border: 2px solid rgb(124, 184, 65);
+  background-color: rgb(187, 255, 118);
+  left: 220px;
+  top: 160px;
+  box-shadow: 2px 2px 5px gray;
+}
+.card-2::before {
+  content: "02";
+  color: white;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-color: rgb(124, 184, 65);
+  left: 220px;
+  top: 160px;
+  box-shadow: 2px 2px 5px gray;
+}
+.card-3::before {
+  content: "03";
+  color: white;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-color: rgb(124, 184, 65);
+  left: 220px;
+  top: 160px;
+  box-shadow: 2px 2px 5px gray;
+}
+.card-4::before {
+  content: "04";
+  color: white;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-color: rgb(124, 184, 65);
+  left: 220px;
+  top: 160px;
+  box-shadow: 2px 2px 5px gray;
+}
